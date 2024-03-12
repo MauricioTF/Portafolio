@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body {
+          background-color: black; /* Cambia el color de fondo aquí */
+        }
+      </style>
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <div style="margin-left: 25%; margin-top: 40%;">
+                <h1 class="font-weight-bold text-danger animate__animated animate__bounce animate__slower 2s">
+                  <a href="#" onmouseenter="cambiaPalabraDentro('txt1', 'HOLA MUNDO', 'ACERCA DE');" onmouseleave="cambiaPalabraFuera('txt1', 'ACERCA DE', 'HOLA MUNDO');"  id="txt1" style="text-decoration: none; color: #fff; font-family: 'Gasoek One', sans-serif;">HOLA MUNDO</a>
+                </h1>
+                <h1 class="font-weight-bold text-danger animate__animated animate__bounce animate__slower 2s animate__delay-2s" style="margin-top: 5%; margin-left: 10%;">
+                  <a href="#" onmouseenter="cambiaPalabraDentro('txt2', 'SOY', 'PROYECTOS');" onmouseleave="cambiaPalabraFuera('txt2', 'PROYECTOS', 'SOY');" id="txt2" style="text-decoration: none; color: #fff; font-family: 'Gasoek One', sans-serif;">SOY</a></h3>
+                <h1 class="font-weight-bold text-danger animate__animated animate__bounce animate__slower 2s animate__delay-4s" style="margin-top: 5%;">
+                  <a href="#" onmouseenter="cambiaPalabraDentro('txt3', 'MAURICIO TF', 'CONTACTO');" onmouseleave="cambiaPalabraFuera('txt3', 'CONTACTO', 'MAURICIO TF');" id="txt3" style="text-decoration: none; color: #fff; font-family: 'Gasoek One', sans-serif;" >MAURICIO TF</a></h4>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="row">
+                <div class="col-md-8" style="margin-top: 10%; margin-left: 10%;">
+                  
+                    <img src="img/imgf.png" class="card-img-top" alt="Mauricio  Torres Fernández" style="width: 100%; height: 100%;">
+               
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   <!-- ------------------------------------- ACERCA DE-------------------------------------------------------- --> 
+    <div class="container" style="margin-top: 10%;">
+      <div class="row" style=" font-family: 'Poppins', sans-serif; color: #fff;">
+        <div class="col-md-5">
+          <h2>Acerca de</h2>
+        </div>
+        <div class="col-md-6">
+          <p>
+            Hola, mi nombre es Mauricio Torres Fernández, soy un desarrollador junior sin experiencia laboral. Estoy cursando el último año de la carrera de Informática Empresarial en la Universidad de Costa Rica.
+            <br>
+            <br>
+            Tengo una gran pasión por el desarrollo de software y estoy en constante aprendizaje, tanto de tecnologías y herramientas como de idiomas (actualmente me encuentro en el aprendizaje del idioma inglés).
+            <br>
+            <br>
+            Me encuentro en búsqueda de oportunidades para aplicar mis conocimientos y habilidades técnicas en un entorno laboral dinámico y desafiante. Busco contribuir con mi entusiasmo, aprendizaje constante y habilidades de resolución de problemas en un equipo orientado a la innovación.
+            <br>
+            <br>
+            <h4>Educación</h4>
+            <br>
+            Informática Empresarial, Universidad de Costa Rica. (2019 - 2024)
+            <br><br>
+            Inglés, Instituto CORPESA. (2023 - actualidad)
+            <br>
+            <br><br>
+            <h4>Habilidades técnicas</h4>
+            <br>
+            - PHP
+            <br>
+            - JavaScript
+            <br>
+            - React
+            <br>
+            - Laravel
+            <br>
+            - HTML
+            <br>
+            - CSS
+            <br>
+            - Bootstrap
+            <br>
+            - MySql
+            <br>
+            - MariaDB
+            <br>
+            - Habilidades de resolución de problemas y capacidad para aprender rápidamente nuevas tecnologías.
+          </p>
+        </div>
+      </div>
+    </div>
+   <!-- ------------------------------------- FIN ACERCA DE-------------------------------------------------------- --> 
+
+   <!-- ------------------------------------- PROYECTOS -------------------------------------------------------- --> 
+   <div class="container" style="margin-top: 10%; font-family: 'Poppins', sans-serif; color: #fff;">
+    <div class="row">
+      <div class="col-md-5">
+        <h2>Proyectos</h2>
+      </div>
+      <div class="col-md-6">
+
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container"style="margin-left: 25%;">
+                <div class="" style="width: 18rem;">
+                  <img src="img/imgf.png" class="card-img-top" alt="...">
+                  <div class="card-body" style="margin-top: 15%;">
+                    <h5 class="card-title" style="text-align: center;">BualaLand</h5>
+                    <p class="card-text">Página web para barberías (o empresas similares) donde puede llevar control de cada empleado con sus respectivos clientes, cada cliente puede llevar el control de sus citas diarias, sus ingresos diarios, entre otros, cuenta con reportes mensuales sobre información relevante para el empleado.</p>
+                    <div class="div"style="text-align: center;">
+                      <a href="https://github.com/MauricioTF/BualaLand.git" class="btn btn-primary">Código</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container"style="margin-left: 25%;">
+                <div class="" style="width: 18rem;">
+                  <img src="img/imgf.png" class="card-img-top" alt="...">
+                  <div class="card-body" style="margin-top: 15%;">
+                    <h5 class="card-title" style="text-align: center;">Proyecto contable</h5>
+                    <p class="card-text">Proyecto de contabilidad donde se llevan a cabo operaciones contables, acciones que facilitan en gran medida las labores de los contadores.</p>
+                    <div class="div"style="text-align: center;">
+                      <a href="https://github.com/MauricioTF/Contabilidad.git" class="btn btn-primary">Código</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        
+
+  
+      </div>
+    </div>
+  </div>
+ <!-- ------------------------------------- FIN PROYECTOS -------------------------------------------------------- --> 
+
+ <!-- ------------------------------------- CONTACTO -------------------------------------------------------- --> 
+ <form id="contactForm" >
+  <label for="name">Nombre</label>
+  <input type="text" id="name" name="name" placeholder="Tu nombre.." required>
+
+  <label for="email">Correo Electrónico</label>
+  <input type="email" id="email" name="email" placeholder="Tu correo electrónico.." required>
+
+  <label for="message">Mensaje</label>
+  <textarea id="message" name="message" placeholder="Escribe tu mensaje.." style="height:200px" required></textarea>
+
+  <input type="submit" value="Enviar">
+</form>
+<!-- ------------------------------------- FIN CONTACTO -------------------------------------------------------- --> 
+
+
+</body>
+<script>
+
+/*----------------------------------------Formulario Contacto-----------------------------*/
+  // Función para manejar el envío del formulario
+    document.getElementById("contactForm").addEventListener("submit", function(event) {
+        event.preventDefault(); // Evitar que se envíe el formulario de forma predeterminada
+        
+        // Obtener los valores del formulario
+        var formData = new FormData(this);
+
+        // Enviar los datos del formulario a través de XMLHttpRequest
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "send_email.php"); // Ruta al script de PHP que enviará el correo electrónico
+        xhr.onload = function() {
+            if (xhr.status === 200) {
+                // Se ha enviado el correo electrónico con éxito
+                alert("¡Gracias por tu mensaje! Te responderemos lo antes posible.");
+                // Limpiar el formulario después del envío exitoso
+                document.getElementById("contactForm").reset();
+            } else {
+                // Error al enviar el correo electrónico
+                alert("Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo más tarde.");
+            }
+        };
+        xhr.send(formData);
+    });
+
+/*----------------------------------------FIN Formulario Contacto -------------------------*/
+function cambiaPalabraDentro(id, txt, txtCambio){
+
+    var text = document.getElementById(id).textContent;
+
+    if(text == txt){
+      document.getElementById(id).innerHTML = txtCambio;
+    }
+  }
+
+  function cambiaPalabraFuera(id, txt, txtCambio){
+    var text = document.getElementById(id).textContent;
+    if(text == txt){
+      document.getElementById(id).innerHTML = txtCambio;
+    }
+  }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>
